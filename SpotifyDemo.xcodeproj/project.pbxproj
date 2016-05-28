@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43A87B4C1CEEA24500371EC0 /* imageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A87B4A1CEEA24500371EC0 /* imageViewCell.swift */; };
+		43A87B4D1CEEA24500371EC0 /* imageViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43A87B4B1CEEA24500371EC0 /* imageViewCell.xib */; };
+		B57D62471CEE959A003112BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57D62461CEE959A003112BB /* AppDelegate.swift */; };
+		B57D62491CEE959A003112BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57D62481CEE959A003112BB /* ViewController.swift */; };
+		B57D624C1CEE959A003112BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B57D624A1CEE959A003112BB /* Main.storyboard */; };
+		B57D624E1CEE959A003112BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B57D624D1CEE959A003112BB /* Assets.xcassets */; };
+		B57D62511CEE959A003112BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B57D624F1CEE959A003112BB /* LaunchScreen.storyboard */; };
+		B57D626E1CEE966B003112BB /* aerosmith.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B57D62591CEE966B003112BB /* aerosmith.jpg */; };
+		B57D626F1CEE966B003112BB /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = B57D625A1CEE966B003112BB /* back.png */; };
+		B57D62701CEE966B003112BB /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B57D625B1CEE966B003112BB /* back@2x.png */; };
+		B57D62711CEE966B003112BB /* beyonce.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B57D625C1CEE966B003112BB /* beyonce.jpg */; };
+		B57D62721CEE966B003112BB /* eminem.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B57D625D1CEE966B003112BB /* eminem.jpg */; };
+		B57D62731CEE966B003112BB /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = B57D625E1CEE966B003112BB /* forward.png */; };
+		B57D62741CEE966B003112BB /* forward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B57D625F1CEE966B003112BB /* forward@2x.png */; };
+		B57D62751CEE966B003112BB /* Group 2.png in Resources */ = {isa = PBXBuildFile; fileRef = B57D62601CEE966B003112BB /* Group 2.png */; };
+		B57D62761CEE966B003112BB /* Group 2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B57D62611CEE966B003112BB /* Group 2@2x.png */; };
+		B57D62771CEE966B003112BB /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = B57D62621CEE966B003112BB /* pause.png */; };
+		B57D62781CEE966B003112BB /* pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B57D62631CEE966B003112BB /* pause@2x.png */; };
+		B57D62791CEE966B003112BB /* pause@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B57D62641CEE966B003112BB /* pause@3x.png */; };
+		B57D627A1CEE966B003112BB /* pitbull.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B57D62651CEE966B003112BB /* pitbull.jpg */; };
+		B57D627B1CEE966B003112BB /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = B57D62661CEE966B003112BB /* play.png */; };
+		B57D627C1CEE966B003112BB /* play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B57D62671CEE966B003112BB /* play@2x.png */; };
+		B57D627D1CEE966B003112BB /* queen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B57D62681CEE966B003112BB /* queen.jpg */; };
+		B57D627E1CEE966B003112BB /* rammstein.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B57D62691CEE966B003112BB /* rammstein.jpg */; };
+		B57D627F1CEE966B003112BB /* rihanna.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B57D626A1CEE966B003112BB /* rihanna.jpg */; };
+		B57D62801CEE966B003112BB /* rollingstones.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B57D626B1CEE966B003112BB /* rollingstones.jpg */; };
+		B57D62811CEE966B003112BB /* santana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B57D626C1CEE966B003112BB /* santana.jpg */; };
+		B57D62821CEE966B003112BB /* sonataArtica.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B57D626D1CEE966B003112BB /* sonataArtica.jpg */; };
+		B57D62871CEE96AD003112BB /* BackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B57D62851CEE96AD003112BB /* BackgroundLayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43A87B4A1CEEA24500371EC0 /* imageViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imageViewCell.swift; sourceTree = "<group>"; };
+		43A87B4B1CEEA24500371EC0 /* imageViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = imageViewCell.xib; sourceTree = "<group>"; };
+		B57D62431CEE959A003112BB /* SpotifyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B57D62461CEE959A003112BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B57D62481CEE959A003112BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B57D624B1CEE959A003112BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B57D624D1CEE959A003112BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B57D62501CEE959A003112BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B57D62521CEE959A003112BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B57D62591CEE966B003112BB /* aerosmith.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aerosmith.jpg; sourceTree = "<group>"; };
+		B57D625A1CEE966B003112BB /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		B57D625B1CEE966B003112BB /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		B57D625C1CEE966B003112BB /* beyonce.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beyonce.jpg; sourceTree = "<group>"; };
+		B57D625D1CEE966B003112BB /* eminem.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eminem.jpg; sourceTree = "<group>"; };
+		B57D625E1CEE966B003112BB /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forward.png; sourceTree = "<group>"; };
+		B57D625F1CEE966B003112BB /* forward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forward@2x.png"; sourceTree = "<group>"; };
+		B57D62601CEE966B003112BB /* Group 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Group 2.png"; sourceTree = "<group>"; };
+		B57D62611CEE966B003112BB /* Group 2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Group 2@2x.png"; sourceTree = "<group>"; };
+		B57D62621CEE966B003112BB /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		B57D62631CEE966B003112BB /* pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause@2x.png"; sourceTree = "<group>"; };
+		B57D62641CEE966B003112BB /* pause@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause@3x.png"; sourceTree = "<group>"; };
+		B57D62651CEE966B003112BB /* pitbull.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pitbull.jpg; sourceTree = "<group>"; };
+		B57D62661CEE966B003112BB /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		B57D62671CEE966B003112BB /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@2x.png"; sourceTree = "<group>"; };
+		B57D62681CEE966B003112BB /* queen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = queen.jpg; sourceTree = "<group>"; };
+		B57D62691CEE966B003112BB /* rammstein.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rammstein.jpg; sourceTree = "<group>"; };
+		B57D626A1CEE966B003112BB /* rihanna.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rihanna.jpg; sourceTree = "<group>"; };
+		B57D626B1CEE966B003112BB /* rollingstones.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rollingstones.jpg; sourceTree = "<group>"; };
+		B57D626C1CEE966B003112BB /* santana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = santana.jpg; sourceTree = "<group>"; };
+		B57D626D1CEE966B003112BB /* sonataArtica.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sonataArtica.jpg; sourceTree = "<group>"; };
+		B57D62831CEE96AC003112BB /* SpotifyDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpotifyDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		B57D62841CEE96AD003112BB /* BackgroundLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundLayer.h; sourceTree = "<group>"; };
+		B57D62851CEE96AD003112BB /* BackgroundLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundLayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B57D62401CEE959A003112BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B57D623A1CEE959A003112BB = {
+			isa = PBXGroup;
+			children = (
+				B57D62451CEE959A003112BB /* SpotifyDemo */,
+				B57D62441CEE959A003112BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B57D62441CEE959A003112BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B57D62431CEE959A003112BB /* SpotifyDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B57D62451CEE959A003112BB /* SpotifyDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B57D62881CEE96CE003112BB /* Objective-C code */,
+				B57D62581CEE9650003112BB /* Images */,
+				B57D62461CEE959A003112BB /* AppDelegate.swift */,
+				B57D62481CEE959A003112BB /* ViewController.swift */,
+				B57D624A1CEE959A003112BB /* Main.storyboard */,
+				43A87B4A1CEEA24500371EC0 /* imageViewCell.swift */,
+				43A87B4B1CEEA24500371EC0 /* imageViewCell.xib */,
+				B57D624D1CEE959A003112BB /* Assets.xcassets */,
+				B57D624F1CEE959A003112BB /* LaunchScreen.storyboard */,
+				B57D62521CEE959A003112BB /* Info.plist */,
+			);
+			path = SpotifyDemo;
+			sourceTree = "<group>";
+		};
+		B57D62581CEE9650003112BB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B57D62591CEE966B003112BB /* aerosmith.jpg */,
+				B57D625A1CEE966B003112BB /* back.png */,
+				B57D625B1CEE966B003112BB /* back@2x.png */,
+				B57D625C1CEE966B003112BB /* beyonce.jpg */,
+				B57D625D1CEE966B003112BB /* eminem.jpg */,
+				B57D625E1CEE966B003112BB /* forward.png */,
+				B57D625F1CEE966B003112BB /* forward@2x.png */,
+				B57D62601CEE966B003112BB /* Group 2.png */,
+				B57D62611CEE966B003112BB /* Group 2@2x.png */,
+				B57D62621CEE966B003112BB /* pause.png */,
+				B57D62631CEE966B003112BB /* pause@2x.png */,
+				B57D62641CEE966B003112BB /* pause@3x.png */,
+				B57D62651CEE966B003112BB /* pitbull.jpg */,
+				B57D62661CEE966B003112BB /* play.png */,
+				B57D62671CEE966B003112BB /* play@2x.png */,
+				B57D62681CEE966B003112BB /* queen.jpg */,
+				B57D62691CEE966B003112BB /* rammstein.jpg */,
+				B57D626A1CEE966B003112BB /* rihanna.jpg */,
+				B57D626B1CEE966B003112BB /* rollingstones.jpg */,
+				B57D626C1CEE966B003112BB /* santana.jpg */,
+				B57D626D1CEE966B003112BB /* sonataArtica.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		B57D62881CEE96CE003112BB /* Objective-C code */ = {
+			isa = PBXGroup;
+			children = (
+				B57D62841CEE96AD003112BB /* BackgroundLayer.h */,
+				B57D62851CEE96AD003112BB /* BackgroundLayer.m */,
+				B57D62831CEE96AC003112BB /* SpotifyDemo-Bridging-Header.h */,
+			);
+			name = "Objective-C code";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B57D62421CEE959A003112BB /* SpotifyDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B57D62551CEE959A003112BB /* Build configuration list for PBXNativeTarget "SpotifyDemo" */;
+			buildPhases = (
+				B57D623F1CEE959A003112BB /* Sources */,
+				B57D62401CEE959A003112BB /* Frameworks */,
+				B57D62411CEE959A003112BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpotifyDemo;
+			productName = SpotifyDemo;
+			productReference = B57D62431CEE959A003112BB /* SpotifyDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B57D623B1CEE959A003112BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Nearsoft;
+				TargetAttributes = {
+					B57D62421CEE959A003112BB = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = LHJA6J73E9;
+					};
+				};
+			};
+			buildConfigurationList = B57D623E1CEE959A003112BB /* Build configuration list for PBXProject "SpotifyDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B57D623A1CEE959A003112BB;
+			productRefGroup = B57D62441CEE959A003112BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B57D62421CEE959A003112BB /* SpotifyDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B57D62411CEE959A003112BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57D626E1CEE966B003112BB /* aerosmith.jpg in Resources */,
+				B57D62821CEE966B003112BB /* sonataArtica.jpg in Resources */,
+				B57D627B1CEE966B003112BB /* play.png in Resources */,
+				B57D627C1CEE966B003112BB /* play@2x.png in Resources */,
+				B57D62771CEE966B003112BB /* pause.png in Resources */,
+				B57D626F1CEE966B003112BB /* back.png in Resources */,
+				B57D62511CEE959A003112BB /* LaunchScreen.storyboard in Resources */,
+				B57D62711CEE966B003112BB /* beyonce.jpg in Resources */,
+				B57D62721CEE966B003112BB /* eminem.jpg in Resources */,
+				B57D627A1CEE966B003112BB /* pitbull.jpg in Resources */,
+				B57D624E1CEE959A003112BB /* Assets.xcassets in Resources */,
+				B57D62791CEE966B003112BB /* pause@3x.png in Resources */,
+				B57D62761CEE966B003112BB /* Group 2@2x.png in Resources */,
+				B57D627D1CEE966B003112BB /* queen.jpg in Resources */,
+				B57D62751CEE966B003112BB /* Group 2.png in Resources */,
+				B57D62731CEE966B003112BB /* forward.png in Resources */,
+				43A87B4D1CEEA24500371EC0 /* imageViewCell.xib in Resources */,
+				B57D624C1CEE959A003112BB /* Main.storyboard in Resources */,
+				B57D627F1CEE966B003112BB /* rihanna.jpg in Resources */,
+				B57D627E1CEE966B003112BB /* rammstein.jpg in Resources */,
+				B57D62741CEE966B003112BB /* forward@2x.png in Resources */,
+				B57D62811CEE966B003112BB /* santana.jpg in Resources */,
+				B57D62701CEE966B003112BB /* back@2x.png in Resources */,
+				B57D62781CEE966B003112BB /* pause@2x.png in Resources */,
+				B57D62801CEE966B003112BB /* rollingstones.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B57D623F1CEE959A003112BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A87B4C1CEEA24500371EC0 /* imageViewCell.swift in Sources */,
+				B57D62491CEE959A003112BB /* ViewController.swift in Sources */,
+				B57D62471CEE959A003112BB /* AppDelegate.swift in Sources */,
+				B57D62871CEE96AD003112BB /* BackgroundLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B57D624A1CEE959A003112BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B57D624B1CEE959A003112BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B57D624F1CEE959A003112BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B57D62501CEE959A003112BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B57D62531CEE959A003112BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B57D62541CEE959A003112BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B57D62561CEE959A003112BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = SpotifyDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nearsoft.SpotifyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SpotifyDemo/SpotifyDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B57D62571CEE959A003112BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = SpotifyDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nearsoft.SpotifyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SpotifyDemo/SpotifyDemo-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B57D623E1CEE959A003112BB /* Build configuration list for PBXProject "SpotifyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57D62531CEE959A003112BB /* Debug */,
+				B57D62541CEE959A003112BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B57D62551CEE959A003112BB /* Build configuration list for PBXNativeTarget "SpotifyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57D62561CEE959A003112BB /* Debug */,
+				B57D62571CEE959A003112BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B57D623B1CEE959A003112BB /* Project object */;
+}
